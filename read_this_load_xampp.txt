@@ -1,0 +1,4 @@
+Change the database info from the root as \application\config database.php
+
+Change the project root path from the root as \application\config config.php
+

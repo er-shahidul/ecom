@@ -1,0 +1,118 @@
+﻿#backgroundPopup{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+#popupContact{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	width:350px;
+	height: auto;
+	background:#333;
+	border:2px solid #666;
+	z-index:9999;
+	padding:12px;
+	font-size:13px;
+	border-radius:15px;
+	color: #FFF;
+}
+#popupContact h1{
+	text-align:left;
+	color:#6FA5FD;
+	font-size:22px;
+	font-weight:700;
+	border-bottom:1px dotted #D3D3D3;
+	padding-bottom:2px;
+	margin-bottom:20px;
+}
+#popupContactClose{
+	position:absolute;
+	right: 19px;
+	top: 19px;
+	width: 24px;
+	height: 24px;
+	text-indent: -9999px;
+	background: url("../images/cross_icon.png") no-repeat;
+	z-index: 99999;
+	cursor: pointer;
+}
+
+
+
+
+.popup_window .title_bar {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 95%;
+	background: #296DB8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#296DB8), to(#204C8D));
+	background: -webkit-linear-gradient(top, #296DB8, #204C8D);
+	background: -moz-linear-gradient(top, #296DB8, #204C8D);
+	background: -ms-linear-gradient(top, #296DB8, #204C8D);
+	background: -o-linear-gradient(top, #296DB8, #204C8D);
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+.popup_window .form_area div {
+	margin: 10px 0px;
+}
+.popup_window .form_area div span {
+	font-size: 11px;
+}
+.popup_window .form_area input[type="text"],
+.popup_window .form_area input[type="email"],
+.popup_window .form_area input[type="password"], 
+.popup_window .form_area select,
+.popup_window .form_area textarea {
+	width: 97%;
+	padding: 6px 5px;
+	background: none;
+	border: 1px solid #cdcdcd;
+	color: #fff;
+	border-radius: 5px;
+}
+.popup_window .form_area select { width: 100%; color: #CCC; }
+.popup_window .form_area input[type="submit"] {
+	background-color: #FAB571;
+    background-image: -moz-linear-gradient(center top , #FAB570 0%, #EEA353 50%, #E88D2C 50%, #DF7A16 100%);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #CF8234;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    font-size: 12px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.popup_window .form_area a {
+	font-size: 11px;
+	color: #09F;
+	text-decoration: none;
+}
+.popup_window .form_area a:hover {
+	color: #06C;
+	text-decoration: none;
+}
+.popup_window .form_area div.error_massage { color: red; }
+.popup_window .form_area div.success_massage { color: green; }
+.popup_window .form_area div.popup_footer {
+	font-size: 11px;
+	text-align: left;
+	border-top: 1px dashed #666;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+.popup_window .form_area div.popup_massage_view { color: red; }
+
+

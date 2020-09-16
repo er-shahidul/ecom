@@ -1,0 +1,114 @@
+.my_account_left_column{
+	float: left;
+	width: 150px;
+	padding: 0px;
+
+}
+.my_account_right_column{
+	float: right;	
+	width: 800px;
+}
+ul.user_menu li, ul.user_menu li.off{
+	list-style:none;
+	height: 15px;
+	padding: 4px;
+	font-size: 12px;
+	cursor: pointer;
+}
+ul.user_menu li:hover{
+	background-color: #EDF2F3;
+	color: #070710;
+	font-size: 11px;
+	font-weight: bold;
+}
+ul.user_menu li.on {
+	color: #1E0129;
+	font-size: 12px;
+	font-weight: bold;
+}
+.content_full .my_account_left_column{
+	color: #000;	
+}
+.my_account_right_column{
+	overflow:hidden;
+}
+.my_account_right_column > div{
+	height: 222px;
+	//border: 1px solid #14142E;
+	
+}
+.my_account_menu > div{
+	height: 15px;
+	float:left;
+	font-size:12px;
+	padding: 8px 16px;
+	border-top: 1px solid #181818;
+	border-left: 1px solid #181818;
+	border-right: 1px solid #181818;
+	cursor: pointer;
+	height: 14px;
+	font-weight: bold;
+}
+.my_account_menu .last{
+	width: 180px;
+
+}
+.my_account_menu .inactive{
+	border-bottom: 1px solid #181818;
+	height: 13px;
+}
+.my_account_menu .active{
+}
+.menu_separator{
+	float:left;
+	border:0 !important;
+	border-bottom: 1px solid #181818 !important;
+	cursor: default !important;
+}
+.my_account_details .collapsed, .my_account_menu .inactive{
+	color:#FFFFFF;
+	background: #9A8D7E;
+}
+.my_account_details .expanded, .my_account_menu .active{
+	color: #000;
+}
+form div{
+	float: left;
+	padding: 1.5px 2px;
+}
+form .label{
+	color:#000000;
+	width: 111px;
+	font-size: 11px;
+	font-weight: bold;
+	
+}
+#ChangePasswordDetails .label{
+	width: 120px;	
+}
+form{
+	padding: 8px 11px 11px 0px; 
+}
+form .notif{
+	padding: 3px 6px;
+	height: 16px;
+}
+form .pass_nb{
+ background-color: #00395B;
+}
+input[type=text], input[type=password], input[type=email], form textarea {
+	width: 200px !important;
+}
+form select {
+	width: 212px !important;
+}
+form select option {
+	width: 180px !important;
+}
+form .button{
+	width: 66px;
+	margin-left: 288px;
+}
+
+.user_menu { margin: 0px; padding: 0px; }
+.sub_button { width: auto; margin-left: 124px !important; }

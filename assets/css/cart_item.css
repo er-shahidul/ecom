@@ -1,0 +1,200 @@
+
+
+.cart_table .even_row td {
+	background-color: #F7F7F7;
+}
+.cart_table .odd_row td {
+	background: #E8E8E8;
+}
+.cart_step{
+	clear:both;
+	text-align: center;
+	margin: 0 auto;
+}	
+.cart_step ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 0;
+	background: url("../images/cart_step_disabled.png") repeat-x bottom;
+}
+.cart_step ul, .cart_step ul li {
+	min-height: 27px;
+}
+.cart_step ul li{
+	float: left;
+    text-align: center;
+	min-width: 88px;
+
+}
+.cart_step ul li.disabled{
+	background: url("../images/cart_step_disabled.png") repeat-x bottom;
+}
+.cart_step ul li.enabled{
+	background: url("../images/cart_step_enabled.png") repeat-x bottom;
+}
+
+ul#order_step {
+    background-color: black;
+}
+ul.step {
+    height: 52px;
+    list-style-type: none;
+    margin-bottom: 30px;
+    width: 757px;
+}
+
+ul.step li {
+    background: url("../images/step_standard.png") no-repeat scroll center bottom transparent;
+    float: left;
+    height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 151px;
+}
+ul.step li.step_done {
+    background: url("../images/step_done.png") no-repeat scroll center bottom transparent;
+    font-weight: bold;
+}
+ul.step li a {
+	text-decoration: none;   
+}
+ul.step li a, ul.step li.step_current span, ul.step li.step_current_end span {
+    background: url("../images/step_current_span.png") no-repeat scroll center bottom transparent;
+    color: #000000;
+    display: inline-block;
+    padding: 8px 10px 12px;
+}
+ul.step li.step_current {
+    background: url("../images/step_current.png") no-repeat scroll center bottom transparent;
+    font-weight: bold;
+}
+ul.step li.step_todo span {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #999999;
+    display: inline-block;
+    padding: 8px 10px 6px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+/*-------------Cart Final---------------*/
+.clearfix, .clear{
+	clear: both;
+}
+.floatr{
+	float: right;
+}
+.floatl{
+	float: left;
+}
+.delivery_gateway{
+}
+.checkoutCol1{
+	margin-right: 10px;
+	float: left;
+	width: 610px;
+	vertical-align: top;
+}
+.rightside{
+	width: 335px;
+	float: left;
+	background:#09F;
+	height: 33px;
+}
+
+.cartbase {
+   
+    border: 1px solid #261708;
+    clear: both;
+    color: #999999;
+    float: left;
+    width: 97.7%;
+}
+.cart_image_stepone{
+	float: left;
+	height: 45px;
+	overflow: hidden;
+	width: 100%;
+}
+.cart_image_stepone td {
+	vertical-align: top;
+}
+.cart_image_stepone td span.cart_step_sn {
+    display: inline-block;
+}
+.sp_top_left {
+    background: url("../images/cart_top_left.png") repeat-y scroll 0 0 transparent;
+    height: 45px;
+    width: 7%;
+}
+.sp_step1_active span.cart_step_sn, .sp_step2 span.cart_step_sn{
+    float: left;
+    font-size: 24px;
+    padding: 6px 0 0 8px;
+}
+.sp_step1_active span.cart_step_label, .sp_step2 span.cart_step_label {
+	float: left;
+	padding: 13px 0 0 5px;
+}
+.sp_step1_active {
+    background: url("../images/cart_step1.png") repeat-y scroll right top transparent;
+    color: #EF8D2C;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    /*padding: 15px 0 10px 10px;*/
+    width: 30.4%;
+}
+
+.sp_step2 {
+    background: url("../images/cart_step2.png") repeat-y scroll right top #C87C29;
+    color: #7C4F22;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+/*    padding: 15px 0 10px 10px;
+    vertical-align: middle !important;*/
+    width: 30.4%;
+}
+.sp_top_right {
+    background: none repeat scroll 0 0 #C87C29;
+    height: 45px;
+    padding: 0;
+    width: 7.5%;
+}
+.cart_step_container{
+	padding: 25px 18px 22px 20px;
+}
+form{
+	padding: 8px 11px 11px 0px; 
+}
+form .notif{
+	padding: 3px 6px;
+	height: 16px;
+}
+form .nb{
+ background-color: #00395B;
+}
+form .label {
+    color: #F1F1FA;
+    font-size: 11px;
+    font-weight: bold;
+    width: 111px;
+	cursor: pointer;
+}
+form div {
+    float: left;
+    padding: 1.5px 2px;
+}
+#CheckLoginDetails .label {
+    width: 145px;
+}
+.pwd_opt .label{
+	width: 250px !important;
+}
+.input_note{
+	font-size: 11px;
+}
+.pwd_opt .input_note{
+	padding-left: 22px;
+}

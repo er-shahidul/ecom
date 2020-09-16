@@ -1,0 +1,4 @@
+.menu ul { background: url(../images/menu_back.jpg) repeat-x; width: 930px; }
+.menu ul li { background: url(../images/menu_bar.jpg) no-repeat right; }
+.menu ul li.last { background:none; }
+.menu ul li.last:hover { background: url(../images/menu_over.jpg) repeat-x; } 

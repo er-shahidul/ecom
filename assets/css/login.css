@@ -1,0 +1,316 @@
+*{
+	margin:0;
+	padding:0;
+	}
+
+img{
+	border:0;
+	}
+table{
+	border:0;
+	word-spacing:0;
+	}
+	
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+	background-color: #ffffff;
+	margin: 10px;
+	
+}
+
+
+#border-top.h_blue {
+    background:url(../images/j_header_middle.png) repeat-x scroll 0 0 transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 54px;
+}
+
+.title
+{
+	color: #FFFFFF;
+	font-size: 1.364em;
+	line-height: 44px;
+	padding-left: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+#content-box {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    float: left;
+    margin-bottom: 5px;
+    width: 99.85%;
+}
+
+
+div#element-box.login 
+{
+    background-color: #FFFFFF;
+}
+#element-box, #toolbar-box, #submenu-box 
+{
+    padding: 10px 10px 0;
+}
+#element-box 
+{
+    margin-bottom: 11px;
+}
+
+
+.login 
+{
+    //margin: 50px auto 100px !important;
+	margin-left:30%;
+    width: 575px;
+}
+
+.wbg 
+{
+    background-color: #FFFFFF !important;
+}
+
+h1 
+{
+    margin: 10px 0 5px 10px;
+}
+h1 
+{
+    color: #025A8D;
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 8px;
+}
+/* Check*/
+div#element-box.login 
+{
+    background-color: #FFFFFF;
+}
+#element-box, #toolbar-box, #submenu-box 
+{
+    padding: 10px 10px 0;
+}
+
+#section-box {
+    background-color: #FFFFFF;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 340px;
+}
+
+div#element-box div.m {
+    padding: 10px;
+}
+#section-box .m {
+    padding: 5px;
+}
+.submenu-box, div.m {
+    background-color: #F4F4F4;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0 8px;
+}
+.m table{
+	width: 100%;
+	border-collapse: collapse;
+    border-spacing: 0;
+
+	}
+.label_td{
+	width: 35%;
+	text-align:left;
+	}
+.input_td{
+	width: 65%;
+	text-align: left;
+	}
+
+form#form-login {
+    clear: both;
+    padding: 10px 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+.inputbox{
+	width: 80%;
+	}
+fieldset.loginform {
+    border: 0 none;
+    width: auto;
+}
+fieldset {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+label#mod-login-password-lbl, label#mod-login-username-lbl, label#mod-login-language-lbl {
+    display: block;
+    margin: 5px 15px 16px 0;
+}
+form label, form span.faux-label {
+    font-size: .9em;
+}
+fieldset label, fieldset span.faux-label {
+    clear: left;
+    display: block;
+    float: left;
+    margin: 5px 0;
+}
+
+input#mod-login-username, input#mod-login-password, select#lang {
+    clear: right;
+    float: right;
+    margin: 0 0 20px;
+    min-width: 145px;
+}
+fieldset input, fieldset textarea, fieldset select, fieldset img, fieldset button {
+    float: left;
+    margin: 5px 5px 5px 0;
+    width: auto;
+}
+input, select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid silver;
+    font-size: 0.909em;
+}
+#form-login .button-holder {
+    clear: right;
+    float: right;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+.button1 {
+    margin-left: 5px;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+.button1, .button1 div {
+    float: right;
+    height: 1%;
+}
+
+.button1 a {
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 1.091em;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 35px 0 6px;
+}
+
+.hidebtn
+{
+	border-radius: 7px;
+	background-color:#025A8D;
+	cursor: pointer;
+	width:70px;	
+	color:#ffffff;
+}
+ p a:link {
+    color: #025A8D;
+    outline: medium none;
+    text-decoration: none;
+}
+a, img {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: .9em;
+    margin: 0 0 15px 10px;
+    padding: 0;
+}
+
+a:link {
+    color: #025A8D;
+    outline: medium none;
+    text-decoration: none;
+}
+a, img {
+    margin: 0;
+    padding: 0;
+}
+
+input#mod-login-username, input#mod-login-password, select#lang {
+    clear: right;
+    float: right;
+    margin: 0 0 20px;
+    min-width: 145px;
+}
+fieldset input, fieldset textarea, fieldset select, fieldset img, fieldset button {
+    float: left;
+    margin: 5px 5px 5px 0;
+    width: auto;
+}
+input, select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid silver;
+    font-size: 0.909em;
+}
+
+#lock {
+    height: 137px;
+    width: 150px;
+}
+
+#footer .copyright {
+    line-height: 160%;
+    margin: 10px;
+    text-align: center;
+	font-size:.80em;
+}
+
+a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/***************************  alahan start  for login box center position,login button bottom, ****************************************/
+.login 
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#form-login .button-holder {
+    
+    
+	padding-right: 5px;
+	margin-right: 40px;
+}
+
+#login_password
+{
+	margin-left: 0px;
+	width: 80%;
+	}
+#section-box {
+width: 290px;
+}
+.wbg {
+    margin-bottom: 30px;
+}
+/****************************  alahan end ***************************************/
+	

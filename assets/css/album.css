@@ -1,0 +1,24 @@
+.right5{
+	margin-right: 5px;
+}
+._feature .list_to_cart{
+/*	bottom: 0px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    right: 50px;*/
+	text-align: right;
+	float:: right;
+	width: 100%;
+}
+._feature .list_to_cart a{
+	background: url("../images/add_to_cart_button_1.png") no-repeat scroll right center #000000;
+    border: 1px solid #222222;
+    border-radius: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    padding: 10px 36px 10px 10px;
+    text-decoration: none;
+}
+._feature .list_to_cart a:hover{
+
+}
